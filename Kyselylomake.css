@@ -1,0 +1,43 @@
+body{
+    font-family: "Noto Sans", serif;
+    color: crimson;
+    background-image: url(https://kaupunkitieto.hel.fi/sites/default/files/styles/og_image/public/nuorten_liikunta.jpg?h=b804f5c6&itok=JX2hCkvj);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+#Otsikkojatekstiä{
+    text-align: center;
+}
+#Kyselylomake{
+    padding: 50px;
+    border-style: double;
+    border-width: 15px;
+    border-color: blueviolet;
+}
+.Viikkomäärä{
+    padding: 70px;
+    border-style: double;
+    border-width: 15px;
+    border-color: green
+}
+.Valinta{
+    padding: 70px;
+    border-style: double;
+    border-width: 15px;
+    border-color: blue;
+}
+.Dropdown{
+    padding: 70px;
+    border-style: double;
+    border-width: 15px;
+    border-color: darkorange;
+}
+.Laatikko{
+    padding: 70px;
+    border-style: double;
+    border-width: 15px;
+    border-color: yellow;
+}

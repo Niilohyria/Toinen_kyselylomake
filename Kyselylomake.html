@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel ="stylesheet" href="Kyselylomake.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<title>Niilon kyselylomake</title>
+</head>
+<body>
+<div id="Otsikkojatekstiä">
+<h1 id="otsikko"> Personal Trainer kysely</h1>
+<p>Lyhyt PT-kysely ennen kuntosaliohjausta:</p>
+</div>
+<div class="enmätiiä" id="Kyselylomake">
+<form id="Kyselylomake1" form action="https://you-are-idiot.github.io/">
+<p>Kyselylomake</p>
+<label for="Nimisyöttö">Nimi</label><br>
+<input type="text" name="text" id="Nimisyöttö" placeholder="Nimi" required>
+<br><br><br>
+<label for="Sähköpostisyöttö">Sähköposti</label><br>
+<input type="text" name="text" id="Sähköpostisyöttö" placeholder="Sähköposti" required>
+<br><br><br>
+<label for="Ikäsyöttö">Ikä</label><br>
+<input type="text" name="text" id="Ikäsyöttö" placeholder="Ikä" required>
+</div>
+<br><br><br>
+<div class="Viikkomäärä"><p>Kuinka usein harrastat liikuntaa viikossa</p> 
+<input type="Radio" id="Määrä1" name="Määrä" value="1"> 
+<label for="Määrä1">1-2 kertaa</label><br>
+<input type="Radio" id="Määrä1" name="Määrä" value="2"> 
+<label for="Määrä1">3-4 kertaa</label><br>
+<input type="Radio" id="Määrä1" name="Määrä" value="3"> 
+<label for="Määrä1">5-6 kertaa</label><br>
+</div>
+<div class="Valinta">
+<p>Valitse mieluisimmat liikuntalajit. Voit valita useamman vaihtoehdon:</p>
+<input type="checkbox" id="Laji1" name="Laji1" value="Juoksu">
+<label for="Laji1">Juoksu</label><br>
+<input type="checkbox" id="Laji2" name="Laji2" value="Keihäänheitto">
+<label for="Laji2">Keihäänheitto</label><br>
+<input type="checkbox" id="Laji3" name="Laji3" value="Nyrkkeily">
+<label for="Laji3">Nyrkkeily</label><br>
+<input type="checkbox" id="Laji4" name="Laji4" value="Koripallo">
+<label for="Laji4">Koripallo</label><br>
+<input type="checkbox" id="Laji5" name="Laji5" value="Jalkapallo">
+<label for="Laji5">Jalkapallo</label><br>
+</div>
+<div class="Dropdown">
+<p>Onko sinulla liikunta rajoitteita?</p>
+<select name="Este" id="Pudotus" required> <option value="Valikko">Valitse...</option> <option value="Kyllä">Kyllä</option> <option value="Ei">Ei</option>
+</select>
+</div>
+<div class="Laatikko">
+<p>Kirjoita tähän huolesi ja murheesi.</p>
+<textarea name="Huoli" id="Huoli" placeholder="Kirjoita tähän."> </textarea>
+</div>
+<button id="Painike" type="Submit" name="Button">Lähetä. (nappula toimii)</button>
+</form>
+</body>
+</html>
